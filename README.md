@@ -1,16 +1,18 @@
-# konsolto_app
+# Stories App
 
-A new Flutter application.
+A Flutter application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+After pull project from github execute this command to run app =>
+    * flutter clean 
+    * flutter pub get
+Then run app from android studio or VS
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Screenshot
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ 
+<img src="https://user-images.githubusercontent.com/42956330/123510517-5f69f380-d67c-11eb-8860-e32b1c6c799e.jpg" width =360 height =720 hspace=12 alt="Home" ><img src="https://user-images.githubusercontent.com/42956330/123510598-c5567b00-d67c-11eb-8621-563474f27a1c.jpg" width =360 height =720 alt="detail" > 
+<img src="https://user-images.githubusercontent.com/42956330/123510527-68f35b80-d67c-11eb-89ab-64c86d882498.jpg" width =360 height =720 alt="splach" > 
+
