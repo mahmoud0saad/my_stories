@@ -8,6 +8,7 @@ import 'package:konsolto_app/res/colors.dart';
 import 'package:konsolto_app/route/fluro_navigator.dart';
 import 'package:konsolto_app/ui/home/widgets/ItemStory.dart';
 import 'package:konsolto_app/ui/story_detail/story_detail_screen.dart';
+import 'package:konsolto_app/ui/widgets/custom_loading.dart';
 import '../../network/models/StoriesResponse.dart';
 import 'package:konsolto_app/ui/home/home_provider.dart';
 import 'package:provider/provider.dart';
@@ -21,22 +22,30 @@ class HomeScreenMobile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var _provider = Provider.of<HomeProvider<StoriesResponse>>(
+        context, listen: true);
     List<Result> list =
-        Provider.of<HomeProvider<StoriesResponse>>(context, listen: true)
-                ?.instance
-                ?.results ??
+        _provider
+            ?.instance
+            ?.results ??
             [];
     return RefreshIndicator(
       onRefresh: _refresh,
       displacement: 60,
-      child: ListView.builder(
-        padding: EdgeInsets.all(8),
-        scrollDirection: Axis.vertical,
-        itemCount: list.length ?? 0,
-        shrinkWrap: true,
-        itemBuilder: (context, index) {
-          return _itemStory(context, list[index]);
-        },
+      child: Stack(
+        fit: StackFit.expand,
+        children: [
+          ListView.builder(
+            padding: EdgeInsets.all(8),
+            scrollDirection: Axis.vertical,
+            itemCount: list.length ?? 0,
+            shrinkWrap: true,
+            itemBuilder: (context, index) {
+              return _itemStory(context, list[index]);
+            },
+          ),
+          Visibility(visible:_provider?.isLoading??false, child: CustomLoading())
+        ],
       ),
     );
   }
@@ -47,12 +56,13 @@ class HomeScreenMobile extends StatelessWidget {
 
   Widget _itemStory(context, Result resultItem) {
     return GestureDetector(
-      onTap: (){
+      onTap: () {
         Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => StoryDetailScreen(
-                  resultItem:resultItem),
+              builder: (context) =>
+                  StoryDetailScreen(
+                      resultItem: resultItem),
             ));
         // NavigatorUtils.push(context, StoryDetailScreen.TAG,
         //     replace: true, clearStack: true);

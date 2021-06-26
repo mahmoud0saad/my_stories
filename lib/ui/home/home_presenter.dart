@@ -17,11 +17,17 @@ class HomePresenter extends BasePresenter<HomeScreenState> {
       // view.closeProgress();
           print("onSuccess in api request ${data?.toJson()}");
 
-          if (data?.results != null && data.results.isNotEmpty)
-            Provider.of<HomeProvider<StoriesResponse>>(view.context, listen: false)
+          if (data?.results != null && data.results.isNotEmpty) {
+            Provider.of<HomeProvider<StoriesResponse>>(
+                view.context, listen: false)
                 .setData(data);
+            Provider.of<HomeProvider<StoriesResponse>>(
+                view.context, listen: false).isLoading=false;
+          }
     }, onError: (code, msg) {
       print("error in api request $msg");
+      Provider.of<HomeProvider<StoriesResponse>>(
+          view.context, listen: false).isLoading=false;
       // view.closeProgress();
     });
   }

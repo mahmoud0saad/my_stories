@@ -51,6 +51,7 @@ class HomeScreenState extends BaseState<HomeScreen, HomePresenter>
           desktop: HomeScreenWeb(mPresenter),
           tablet: HomeScreenWeb(mPresenter),
         ),
+
       ),
     );
   }

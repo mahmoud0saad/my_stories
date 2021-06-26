@@ -7,6 +7,7 @@ import 'package:konsolto_app/CommonUtils/size_config.dart';
 import 'package:konsolto_app/network/models/StoriesResponse.dart';
 import 'package:konsolto_app/ui/home/widgets/ItemStory.dart';
 import 'package:konsolto_app/ui/story_detail/story_detail_screen.dart';
+import 'package:konsolto_app/ui/widgets/custom_loading.dart';
 import 'package:provider/provider.dart';
 
 import 'home_presenter.dart';
@@ -19,25 +20,32 @@ class HomeScreenWeb extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var _provider = Provider.of<HomeProvider<StoriesResponse>>(
+        context, listen: true);
     List<Result> list =
-        Provider.of<HomeProvider<StoriesResponse>>(context, listen: true)
-                ?.instance
-                ?.results ??
+        _provider
+            ?.instance
+            ?.results ??
             [];
     return RefreshIndicator(
       onRefresh: _refresh,
       displacement: 60,
-      child: GridView.builder(
+      child: Column(
+        children: [
+          GridView.builder(
 
-        gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(maxCrossAxisExtent: 300,
-        ),
-        padding: EdgeInsets.all(8),
-        scrollDirection: Axis.vertical,
-        itemCount: list.length ?? 0,
-        shrinkWrap: true,
-        itemBuilder: (context, index) {
-          return _itemStory(context, list[index]);
-        },
+            gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(maxCrossAxisExtent: 300,
+            ),
+            padding: EdgeInsets.all(8),
+            scrollDirection: Axis.vertical,
+            itemCount: list.length ?? 0,
+            shrinkWrap: true,
+            itemBuilder: (context, index) {
+              return _itemStory(context, list[index]);
+            },
+          ),
+          Visibility(visible:_provider?.isLoading??false, child: CustomLoading())
+        ],
       ),
     );
   }
