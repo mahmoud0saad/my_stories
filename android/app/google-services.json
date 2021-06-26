@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "355068888848",
+    "project_id": "konsolto-74573",
+    "storage_bucket": "konsolto-74573.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355068888848:android:d744727014fd6241a14795",
+        "android_client_info": {
+          "package_name": "com.konsolto.todo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355068888848-a0l67prnghb00ln29qph1jra14c1gp1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.konsolto.todo_app",
+            "certificate_hash": "93282bcf8df66363629f8517ae3a44c2c63152a4"
+          }
+        },
+        {
+          "client_id": "355068888848-dj74njic8mhtea3sm1mele9nq0enfsbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY5OOiGvUh0i4Av0dzU2QGNiKvyl_NZFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355068888848-dj74njic8mhtea3sm1mele9nq0enfsbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+{
+
+  "app_name": "Stories App",
+  "title": "Title",
+  "titleShouldNotEmpty": "title should not empty",
+  "body": "body",
+  "bodyShouldNotEmpty": "body should not empty",
+  "add": "add",
+  "todoApp": "ToDo App"
+}

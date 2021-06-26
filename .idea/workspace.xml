@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9567597a-b668-48a9-817f-2a67eb6a88ac" name="Default Changelist" comment="second commit">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tTsrvpifBW5cvMen5MdqDTEB9l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/ui/story_detail" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Freelance\flutter_mvp\lib\ui" />
+      <recent name="F:\Freelance\flutter_mvp\lib\ui\widgets" />
+      <recent name="F:\Freelance\flutter_mvp\lib\ui\home" />
+      <recent name="F:\Freelance\Flutter-Mvp\lib\widgets" />
+      <recent name="F:\Freelance\Flutter-Mvp\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Freelance\flutter_mvp\lib\network\models" />
+      <recent name="F:\Freelance\Flutter-Mvp\lib\ui\" />
+      <recent name="F:\Freelance\Flutter-Mvp\lib\ui" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Mahmoud Saad\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9567597a-b668-48a9-817f-2a67eb6a88ac" name="Default Changelist" comment="" />
+      <created>1622804615793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622804615793</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1622827007875</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622827007875</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init commit">
+      <created>1624664000319</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624664000319</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init commit">
+      <created>1624665033665</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624665033665</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init commit">
+      <created>1624666028594</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624666028594</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init commit">
+      <created>1624666263783</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624666263783</updated>
+    </task>
+    <task id="LOCAL-00006" summary="second commit">
+      <created>1624666324329</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624666324329</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="init commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1624627000752">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1624627000752" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624657009719">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1624657009719" />
+    <state x="502" y="110" key="AndroidProcessChooserDialog" timestamp="1624646313673">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="502" y="110" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1624646313673" />
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1624666492386">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1624666492386" />
+    <state x="100" y="100" width="1166" height="528" key="DiffContextDialog" timestamp="1624627585152">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="100" y="100" width="1166" height="528" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1624627585152" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1624647453455">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624647453455" />
+    <state width="1306" height="386" key="GridCell.Tab.0.bottom" timestamp="1624657771759">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="386" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624657771759" />
+    <state width="1306" height="386" key="GridCell.Tab.0.center" timestamp="1624657771758">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="386" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624657771758" />
+    <state width="1306" height="386" key="GridCell.Tab.0.left" timestamp="1624657771758">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="386" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624657771758" />
+    <state width="1306" height="386" key="GridCell.Tab.0.right" timestamp="1624657771759">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="386" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624657771759" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1624666558600">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624666558600" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624666389710">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624666389710" />
+    <state x="100" y="100" width="1166" height="528" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1624627585152">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="100" y="100" width="1166" height="528" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1624627585152" />
+    <state x="100" y="100" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1624657789635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="100" y="100" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1624657789635" />
+    <state x="390" y="97" width="585" height="596" key="find.popup" timestamp="1624652313841">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="97" width="585" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1624652313841" />
+    <state x="460" y="265" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1624666168686">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="460" y="265" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1624666168686" />
+    <state x="339" y="164" key="run.anything.popup" timestamp="1624651861244">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1624651861244" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/network/models/StoriesResponse.dart</url>
+          <line>92</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/network/models/StoriesResponse.dart</url>
+          <line>114</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/network/models/StoriesResponse.dart</url>
+          <line>168</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/network/models/StoriesResponse.dart</url>
+          <line>179</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/network/models/StoriesResponse.dart</url>
+          <line>26</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/network/entity_factory.dart</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/network/models/StoriesResponse.dart</url>
+          <line>35</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/network/models/StoriesResponse.dart</url>
+          <line>139</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/network/models/StoriesResponse.dart</url>
+          <line>193</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/network/models/StoriesResponse.dart</url>
+          <line>21</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/network/models/StoriesResponse.dart</url>
+          <line>28</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/network/entity_factory.dart</url>
+          <line>5</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/network/entity_factory.dart</url>
+          <line>16</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/home_presenter.dart</url>
+          <line>17</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
